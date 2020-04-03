@@ -1,0 +1,45 @@
+
+WATCH THE MARKET STATE
+
+market_state = 0
+alert = 0 (could be 1 or 0)
+time_interval = 15 //minutes
+risk_percentage = 0.03 
+##The risk for the trade is 1% or less always
+##THE RISK PERCENTAGE IS LATER CONVERTED INTO LEVERAGE
+
+stop_loss = 0.2%
+min_leverage = 0
+max_leverage = 0
+
+max_trade = xyz
+
+THINGS TO CONSIDER
+
+open_trades
+price_entered
+buy
+sell
+limit_order
+market_order
+
+spread_fee
+commision_fee
+
+FOREX SCENARIO
+
+Unlike stock which does single trade of open, close, and do nothing
+
+For all 12 pairs -> 
+buy
+sell
+do_nothing
+
+open_trade -> buy or sell
+
+OPEN MULTIPLE TRADE AT A TIME AND CALCULATE
+max_risk = x%
+min_risk = y%
+buy = boolen
+sell = boolen
+do_nothing = boolen
